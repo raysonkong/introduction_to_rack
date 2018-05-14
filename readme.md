@@ -1,15 +1,10 @@
-Start of a Framework
-- we might want to make another app
-- or integrate two or more app within a larger one
-- We would have to redefine certain, more general purpose methods
-  in each app
-- the is where framework comes in
+AN INTRODUCTION TO RACK	
+- SINATRA AND RAILS ARE BASED ON RACK
+- Rack is an interface to Webrick, Ruby's built in server
+- Goal: understand the basics of rack
 
-Goal: Create a small framework to hold the common methods
-that we may want to use between different web applications
+usage:
+go to '/' => 'Hello World'
+go to '/advice' => get random bs advice
 
-
-Step 1: response and erb looks prime for the little framework
- - create monroe.rb
-- create a class Monroe  in the file
 
